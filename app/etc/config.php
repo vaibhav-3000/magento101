@@ -60,7 +60,7 @@ return [
         'Magento_CmsUrlRewrite' => 1,
         'Magento_CmsUrlRewriteGraphQl' => 1,
         'Magento_CompareListGraphQl' => 1,
-        'Magento_Integration' => 1,
+        'Magento_AdminAdobeImsTwoFactorAuth' => 0,
         'Magento_Checkout' => 1,
         'Magento_UrlRewrite' => 1,
         'Magento_QuoteGraphQl' => 1,
@@ -72,7 +72,7 @@ return [
         'Magento_Csp' => 1,
         'Magento_Widget' => 1,
         'Magento_Robots' => 1,
-        'Magento_Analytics' => 1,
+        'Magento_Integration' => 1,
         'Magento_DownloadableGraphQl' => 1,
         'Magento_CustomerGraphQl' => 1,
         'Magento_CustomerImportExport' => 1,
@@ -110,7 +110,7 @@ return [
         'Magento_DownloadableImportExport' => 1,
         'Magento_CardinalCommerce' => 1,
         'Magento_InstantPurchase' => 1,
-        'Magento_CatalogAnalytics' => 1,
+        'Magento_Analytics' => 1,
         'Magento_Inventory' => 1,
         'Magento_InventoryAdminUi' => 1,
         'Magento_InventoryAdvancedCheckout' => 1,
@@ -320,11 +320,10 @@ return [
         'Magento_TaxGraphQl' => 1,
         'Magento_TaxImportExport' => 1,
         'Magento_CustomerSampleData' => 1,
-        'Magento_TwoFactorAuth' => 0,
+        'Magento_CatalogAnalytics' => 1,
         'Magento_ThemeGraphQl' => 1,
         'Magento_CmsSampleData' => 1,
         'Magento_Translation' => 1,
-        'Magento_AdminAdobeImsTwoFactorAuth' => 0,
         'Magento_GoogleOptimizer' => 1,
         'Magento_Ups' => 1,
         'Magento_SalesSampleData' => 1,
@@ -348,6 +347,7 @@ return [
         'Magento_WishlistSampleData' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'Temando_ShippingRemover' => 1
+        'Temando_ShippingRemover' => 1,
+        'Training_Example' => 1
     ]
 ];
