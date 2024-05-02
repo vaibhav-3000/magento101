@@ -10,15 +10,6 @@
         'dev' => true,
     ),
     'versions' => array(
-        '2tvenom/cborencode' => array(
-            'pretty_version' => '1.0.2',
-            'version' => '1.0.2.0',
-            'reference' => '42aedccb861d01fc0554782348cc08f8ebf22332',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../2tvenom/cborencode',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'adobe-commerce/adobe-ims-metapackage' => array(
             'pretty_version' => '2.2.1',
             'version' => '2.2.1.0',
@@ -82,15 +73,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'bacon/bacon-qr-code' => array(
-            'pretty_version' => '2.0.8',
-            'version' => '2.0.8.0',
-            'reference' => '8674e51bb65af933a5ffaf1c308a660387c35c22',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../bacon/bacon-qr-code',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'beberlei/assert' => array(
             'pretty_version' => 'v3.3.2',
             'version' => '3.3.2.0',
@@ -98,7 +80,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../beberlei/assert',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'behat/gherkin' => array(
             'pretty_version' => 'v4.9.0',
@@ -139,15 +121,6 @@
             'reference' => '2fd038f7c9d12d468130c6e1b3ce06e4160a7dbb',
             'type' => 'library',
             'install_path' => __DIR__ . '/../brick/varexporter',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'christian-riesen/base32' => array(
-            'pretty_version' => '1.6.0',
-            'version' => '1.6.0.0',
-            'reference' => '2e82dab3baa008e24a505649b0d583c31d31e894',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../christian-riesen/base32',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -355,15 +328,6 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-        'dasprid/enum' => array(
-            'pretty_version' => '1.0.5',
-            'version' => '1.0.5.0',
-            'reference' => '6faf451159fb8ba4126b925ed2d78acfce0dc016',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../dasprid/enum',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'dealerdirect/phpcodesniffer-composer-installer' => array(
             'pretty_version' => 'v0.7.2',
             'version' => '0.7.2.0',
@@ -424,15 +388,6 @@
             'reference' => '2d302233f2bb0926812d82823bb820d405e130fc',
             'type' => 'library',
             'install_path' => __DIR__ . '/../elasticsearch/elasticsearch',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'endroid/qr-code' => array(
-            'pretty_version' => '4.8.5',
-            'version' => '4.8.5.0',
-            'reference' => '0db25b506a8411a5e1644ebaa67123a6eb7b6a77',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../endroid/qr-code',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -3974,13 +3929,10 @@
             'dev_requirement' => false,
         ),
         'magento/module-two-factor-auth' => array(
-            'pretty_version' => '1.1.5',
-            'version' => '1.1.5.0',
-            'reference' => null,
-            'type' => 'magento2-module',
-            'install_path' => __DIR__ . '/../magento/module-two-factor-auth',
-            'aliases' => array(),
             'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
         ),
         'magento/module-ui' => array(
             'pretty_version' => '101.2.6',
@@ -4988,7 +4940,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../spomky-labs/otphp',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'spomky-labs/pki-framework' => array(
             'pretty_version' => '1.2.1',
@@ -5372,7 +5324,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../thecodingmachine/safe',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.2.3',
