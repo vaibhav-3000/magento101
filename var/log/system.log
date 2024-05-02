@@ -836,3 +836,47 @@ Class Magento\Indexer\Console\Command\IndexerReindexCommand\Interceptor generati
 [2024-05-02T12:56:48.778885+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
 [2024-05-02T12:56:48.832433+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
 [2024-05-02T12:56:54.536598+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:19:07.531749+00:00] main.CRITICAL: Can't create directory /var/www/html/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-05-02T13:19:47.139005+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:21:51.957623+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:22:04.614032+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:22:18.583749+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:23:56.663775+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.709592+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.758692+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.897791+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.939588+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.987140+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:24:15.095780+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:24:19.430496+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:26:19.395134+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.395462+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.395777+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.396038+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.396253+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.396466+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []

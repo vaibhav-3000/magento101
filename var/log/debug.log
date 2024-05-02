@@ -14124,3 +14124,351 @@ Stack trace:
 [2024-05-02T12:56:55.938075+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
 [2024-05-02T12:56:55.940306+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
 [2024-05-02T12:56:55.941680+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:19:07.531749+00:00] main.CRITICAL: Can't create directory /var/www/html/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-05-02T13:19:07.531896+00:00] main.DEBUG: Can't create directory /var/www/html/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. {"exception":"[object] (RuntimeException(code: 0): Can't create directory /var/www/html/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\\Framework\\App\\ResourceConnection\\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. at /var/www/html/magento/vendor/magento/framework/Code/Generator.php:140)"} []
+[2024-05-02T13:19:21.817286+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:19:47.139005+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:21:43.989015+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:21:51.957623+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:22:04.614032+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:22:18.583749+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:23:35.067251+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.987236+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.988115+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.988916+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.989568+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.990197+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.990855+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.991498+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.992303+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.993192+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.993862+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.994516+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.996075+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.996847+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:48.997529+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.669496+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.702651+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.703420+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.704102+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.704789+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.705427+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.706075+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.706726+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.707380+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.708029+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.708687+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.709300+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.710061+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.710742+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:52.711404+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:56.527646+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_1"}} []
+[2024-05-02T13:23:56.528331+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_2"}} []
+[2024-05-02T13:23:56.528939+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_3"}} []
+[2024-05-02T13:23:56.529517+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_4"}} []
+[2024-05-02T13:23:56.530328+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_5"}} []
+[2024-05-02T13:23:56.600131+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_1"}} []
+[2024-05-02T13:23:56.600852+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_2"}} []
+[2024-05-02T13:23:56.601632+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_3"}} []
+[2024-05-02T13:23:56.602246+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_4"}} []
+[2024-05-02T13:23:56.602824+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_5"}} []
+[2024-05-02T13:23:56.663775+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.709592+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.758692+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.861355+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_1"}} []
+[2024-05-02T13:23:56.862080+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_2"}} []
+[2024-05-02T13:23:56.862697+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_3"}} []
+[2024-05-02T13:23:56.863298+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_4"}} []
+[2024-05-02T13:23:56.864350+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_5"}} []
+[2024-05-02T13:23:56.864995+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_1"}} []
+[2024-05-02T13:23:56.865603+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_2"}} []
+[2024-05-02T13:23:56.866199+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_3"}} []
+[2024-05-02T13:23:56.866774+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_4"}} []
+[2024-05-02T13:23:56.867344+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_5"}} []
+[2024-05-02T13:23:56.868134+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_1"}} []
+[2024-05-02T13:23:56.868745+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_2"}} []
+[2024-05-02T13:23:56.869331+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_3"}} []
+[2024-05-02T13:23:56.869900+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_4"}} []
+[2024-05-02T13:23:56.870641+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_5"}} []
+[2024-05-02T13:23:56.871587+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cat_c"],"mode":"matchingAnyTag"}} []
+[2024-05-02T13:23:56.897791+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.939588+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:56.987140+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-02T13:23:57.081402+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_1"}} []
+[2024-05-02T13:23:57.082061+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_2"}} []
+[2024-05-02T13:23:57.082646+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_3"}} []
+[2024-05-02T13:23:57.083220+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_4"}} []
+[2024-05-02T13:23:57.084153+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_5"}} []
+[2024-05-02T13:23:57.084800+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_1"}} []
+[2024-05-02T13:23:57.085407+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_2"}} []
+[2024-05-02T13:23:57.086001+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_3"}} []
+[2024-05-02T13:23:57.086598+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_4"}} []
+[2024-05-02T13:23:57.087188+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_outdated_5"}} []
+[2024-05-02T13:23:57.088019+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_1"}} []
+[2024-05-02T13:23:57.088629+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_2"}} []
+[2024-05-02T13:23:57.089222+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_3"}} []
+[2024-05-02T13:23:57.089810+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_4"}} []
+[2024-05-02T13:23:57.090631+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalog_category_product_index_store1_replica_5"}} []
+[2024-05-02T13:23:57.091557+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cat_c","cat_p"],"mode":"matchingAnyTag"}} []
+[2024-05-02T13:23:57.185382+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. in /var/www/html/magento/vendor/magento/framework/Config/Reader/Filesystem.php:156
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/Config/Reader/Filesystem.php(132): Magento\Framework\Config\Reader\Filesystem->_readFiles()
+#1 /var/www/html/magento/generated/code/Magento/Framework/App/Route/Config/Reader/Proxy.php(95): Magento\Framework\Config\Reader\Filesystem->read()
+#2 /var/www/html/magento/vendor/magento/framework/App/Route/Config.php(92): Magento\Framework\App\Route\Config\Reader\Proxy->read()
+#3 /var/www/html/magento/vendor/magento/framework/App/Route/Config.php(109): Magento\Framework\App\Route\Config->_getRoutes()
+#4 /var/www/html/magento/vendor/magento/framework/Url.php(636): Magento\Framework\App\Route\Config->getRouteFrontName()
+#5 /var/www/html/magento/vendor/magento/framework/Url.php(478): Magento\Framework\Url->_getRouteFrontName()
+#6 /var/www/html/magento/vendor/magento/framework/Url.php(761): Magento\Framework\Url->getBaseUrl()
+#7 /var/www/html/magento/vendor/magento/framework/Url.php(929): Magento\Framework\Url->getRouteUrl()
+#8 /var/www/html/magento/vendor/magento/framework/Url.php(877): Magento\Framework\Url->createUrl()
+#9 /var/www/html/magento/vendor/magento/module-ui/Config/Argument/Parser/Url.php(52): Magento\Framework\Url->getUrl()
+#10 /var/www/html/magento/vendor/magento/framework/Data/Argument/Interpreter/Composite.php(61): Magento\Ui\Config\Argument\Parser\Url->evaluate()
+#11 /var/www/html/magento/vendor/magento/framework/Data/Argument/Interpreter/ArrayType.php(53): Magento\Framework\Data\Argument\Interpreter\Composite->evaluate()
+#12 /var/www/html/magento/generated/code/Magento/Framework/Data/Argument/InterpreterInterface/Proxy.php(95): Magento\Framework\Data\Argument\Interpreter\ArrayType->evaluate()
+#13 /var/www/html/magento/vendor/magento/framework/Data/Argument/Interpreter/Composite.php(61): Magento\Framework\Data\Argument\InterpreterInterface\Proxy->evaluate()
+#14 /var/www/html/magento/vendor/magento/framework/Data/Argument/Interpreter/ArrayType.php(53): Magento\Framework\Data\Argument\Interpreter\Composite->evaluate()
+#15 /var/www/html/magento/generated/code/Magento/Framework/Data/Argument/InterpreterInterface/Proxy.php(95): Magento\Framework\Data\Argument\Interpreter\ArrayType->evaluate()
+#16 /var/www/html/magento/vendor/magento/framework/Data/Argument/Interpreter/Composite.php(61): Magento\Framework\Data\Argument\InterpreterInterface\Proxy->evaluate()
+#17 /var/www/html/magento/vendor/magento/module-ui/Config/Reader/Definition/Data.php(141): Magento\Framework\Data\Argument\Interpreter\Composite->evaluate()
+#18 /var/www/html/magento/vendor/magento/module-ui/Config/Reader/Definition/Data.php(96): Magento\Ui\Config\Reader\Definition\Data->evaluateComponentArguments()
+#19 /var/www/html/magento/vendor/magento/module-ui/Config/Reader/Definition/Data.php(75): Magento\Ui\Config\Reader\Definition\Data->initData()
+#20 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Ui\Config\Reader\Definition\Data->__construct()
+#21 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#22 /var/www/html/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#23 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#24 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#25 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#26 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#27 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#28 /var/www/html/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#29 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#30 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#31 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#32 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#33 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#34 /var/www/html/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#35 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(206): Magento\Framework\ObjectManager\ObjectManager->get()
+#36 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(182): Magento\Framework\ObjectManager\Factory\AbstractFactory->parseArray()
+#37 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#38 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#39 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#40 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#41 /var/www/html/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#42 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#43 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#44 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#45 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#46 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#47 /var/www/html/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#48 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#49 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#50 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#51 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#52 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#53 /var/www/html/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#54 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#55 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#56 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#57 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#58 /var/www/html/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#59 /var/www/html/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#60 /var/www/html/magento/generated/code/Magento/CatalogRule/Model/Rule/Condition/CombineFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#61 /var/www/html/magento/vendor/magento/module-catalog-rule/Model/Rule.php(287): Magento\CatalogRule\Model\Rule\Condition\CombineFactory->create()
+#62 /var/www/html/magento/generated/code/Magento/CatalogRule/Model/Rule/Interceptor.php(23): Magento\CatalogRule\Model\Rule->getConditionsInstance()
+#63 /var/www/html/magento/vendor/magento/module-rule/Model/AbstractModel.php(272): Magento\CatalogRule\Model\Rule\Interceptor->getConditionsInstance()
+#64 /var/www/html/magento/vendor/magento/module-rule/Model/AbstractModel.php(207): Magento\Rule\Model\AbstractModel->_resetConditions()
+#65 /var/www/html/magento/generated/code/Magento/CatalogRule/Model/Rule/Interceptor.php(401): Magento\Rule\Model\AbstractModel->getConditions()
+#66 /var/www/html/magento/vendor/magento/module-catalog-rule/Model/Rule.php(358): Magento\CatalogRule\Model\Rule\Interceptor->getConditions()
+#67 /var/www/html/magento/generated/code/Magento/CatalogRule/Model/Rule/Interceptor.php(68): Magento\CatalogRule\Model\Rule->getMatchingProductIds()
+#68 /var/www/html/magento/vendor/magento/module-catalog-rule/Model/Indexer/ReindexRuleProduct.php(93): Magento\CatalogRule\Model\Rule\Interceptor->getMatchingProductIds()
+#69 /var/www/html/magento/vendor/magento/module-catalog-rule/Model/Indexer/IndexBuilder.php(355): Magento\CatalogRule\Model\Indexer\ReindexRuleProduct->execute()
+#70 /var/www/html/magento/vendor/magento/module-catalog-rule/Model/Indexer/IndexBuilder.php(338): Magento\CatalogRule\Model\Indexer\IndexBuilder->doReindexFull()
+#71 /var/www/html/magento/vendor/magento/module-catalog-rule/Model/Indexer/AbstractIndexer.php(70): Magento\CatalogRule\Model\Indexer\IndexBuilder->reindexFull()
+#72 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\CatalogRule\Model\Indexer\AbstractIndexer->executeFull()
+#73 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogRule\Model\Indexer\Rule\RuleProductIndexer\Interceptor->___callParent()
+#74 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogRule\Model\Indexer\Rule\RuleProductIndexer\Interceptor->Magento\Framework\Interception\{closure}()
+#75 /var/www/html/magento/generated/code/Magento/CatalogRule/Model/Indexer/Rule/RuleProductIndexer/Interceptor.php(32): Magento\CatalogRule\Model\Indexer\Rule\RuleProductIndexer\Interceptor->___callPlugins()
+#76 /var/www/html/magento/vendor/magento/module-indexer/Model/Indexer.php(443): Magento\CatalogRule\Model\Indexer\Rule\RuleProductIndexer\Interceptor->executeFull()
+#77 /var/www/html/magento/vendor/magento/module-indexer/Model/Indexer/DependencyDecorator.php(268): Magento\Indexer\Model\Indexer->reindexAll()
+#78 /var/www/html/magento/vendor/magento/module-configurable-sample-data/Setup/RecurringData.php(60): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexAll()
+#79 [internal function]: Magento\ConfigurableSampleData\Setup\RecurringData->reindex()
+#80 /var/www/html/magento/vendor/magento/framework/App/State.php(187): call_user_func_array()
+#81 /var/www/html/magento/generated/code/Magento/Framework/App/State/Interceptor.php(68): Magento\Framework\App\State->emulateAreaCode()
+#82 /var/www/html/magento/vendor/magento/module-configurable-sample-data/Setup/RecurringData.php(50): Magento\Framework\App\State\Interceptor->emulateAreaCode()
+#83 /var/www/html/magento/setup/src/Magento/Setup/Model/Installer.php(1120): Magento\ConfigurableSampleData\Setup\RecurringData->install()
+#84 /var/www/html/magento/setup/src/Magento/Setup/Model/Installer.php(963): Magento\Setup\Model\Installer->handleDBSchemaData()
+#85 /var/www/html/magento/setup/src/Magento/Setup/Console/Command/UpgradeCommand.php(147): Magento\Setup\Model\Installer->installDataFixtures()
+#86 /var/www/html/magento/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\UpgradeCommand->execute()
+#87 /var/www/html/magento/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#88 /var/www/html/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#89 /var/www/html/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#90 /var/www/html/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#91 /var/www/html/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#92 {main} {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The XML in file \"/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml\" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. at /var/www/html/magento/vendor/magento/framework/Config/Reader/Filesystem.php:156)"} []
+[2024-05-02T13:23:57.191069+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:57.191821+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-05-02T13:23:57.192532+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:24:15.095780+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:24:19.430496+00:00] main.ERROR: The XML in file "/var/www/html/magento/app/code/Training/Example/etc/frontend/routes.xml" is invalid:
+XML declaration allowed only at the start of the document
+Line: 3
+
+Verify the XML and try again. [] []
+[2024-05-02T13:26:13.648084+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-02T13:26:19.395134+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.395462+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.395777+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.396038+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.396253+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:19.396466+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-05-02T13:26:21.791870+00:00] main.CRITICAL: Magento\Framework\Exception\FileSystemException: Directory "/var/www/html/magento/pub/media/catalog/product/cache" cannot be created Warning!mkdir(): Permission denied in /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#1 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#2 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#3 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(243): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#4 /var/www/html/magento/vendor/magento/framework/Filesystem/Directory/Write.php(99): Magento\Framework\Filesystem\Driver\File->createDirectory()
+#5 /var/www/html/magento/vendor/magento/framework/Image/Adapter/AbstractAdapter.php(692): Magento\Framework\Filesystem\Directory\Write->create()
+#6 /var/www/html/magento/vendor/magento/framework/Image/Adapter/Gd2.php(178): Magento\Framework\Image\Adapter\AbstractAdapter->_prepareDestination()
+#7 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\Image\Adapter\Gd2->save()
+#8 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callParent()
+#9 /var/www/html/magento/vendor/magento/module-remote-storage/Plugin/Image.php(160): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\RemoteStorage\Plugin\Image->aroundSave()
+#11 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/generated/code/Magento/Framework/Image/Adapter/Gd2/Interceptor.php(32): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callPlugins()
+#13 /var/www/html/magento/vendor/magento/framework/Image.php(75): Magento\Framework\Image\Adapter\Gd2\Interceptor->save()
+#14 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(395): Magento\Framework\Image->save()
+#15 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(344): Magento\MediaStorage\Service\ImageResize->generateResizedImage()
+#16 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(166): Magento\MediaStorage\Service\ImageResize->resize()
+#17 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(223): Magento\MediaStorage\Service\ImageResize->resizeFromImageName()
+#18 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(194): Magento\MediaStorage\App\Media->createLocalCopy()
+#19 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\MediaStorage\App\Media->launch()
+#20 /var/www/html/magento/pub/get.php(106): Magento\Framework\App\Bootstrap->run()
+#21 {main} {"exception":"[object] (Magento\\Framework\\Exception\\FileSystemException(code: 0): Directory \"/var/www/html/magento/pub/media/catalog/product/cache\" cannot be created Warning!mkdir(): Permission denied at /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272)"} []
+[2024-05-02T13:26:21.791870+00:00] main.CRITICAL: Magento\Framework\Exception\FileSystemException: Directory "/var/www/html/magento/pub/media/catalog/product/cache" cannot be created Warning!mkdir(): Permission denied in /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#1 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#2 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#3 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(243): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#4 /var/www/html/magento/vendor/magento/framework/Filesystem/Directory/Write.php(99): Magento\Framework\Filesystem\Driver\File->createDirectory()
+#5 /var/www/html/magento/vendor/magento/framework/Image/Adapter/AbstractAdapter.php(692): Magento\Framework\Filesystem\Directory\Write->create()
+#6 /var/www/html/magento/vendor/magento/framework/Image/Adapter/Gd2.php(178): Magento\Framework\Image\Adapter\AbstractAdapter->_prepareDestination()
+#7 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\Image\Adapter\Gd2->save()
+#8 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callParent()
+#9 /var/www/html/magento/vendor/magento/module-remote-storage/Plugin/Image.php(160): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\RemoteStorage\Plugin\Image->aroundSave()
+#11 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/generated/code/Magento/Framework/Image/Adapter/Gd2/Interceptor.php(32): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callPlugins()
+#13 /var/www/html/magento/vendor/magento/framework/Image.php(75): Magento\Framework\Image\Adapter\Gd2\Interceptor->save()
+#14 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(395): Magento\Framework\Image->save()
+#15 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(344): Magento\MediaStorage\Service\ImageResize->generateResizedImage()
+#16 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(166): Magento\MediaStorage\Service\ImageResize->resize()
+#17 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(223): Magento\MediaStorage\Service\ImageResize->resizeFromImageName()
+#18 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(194): Magento\MediaStorage\App\Media->createLocalCopy()
+#19 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\MediaStorage\App\Media->launch()
+#20 /var/www/html/magento/pub/get.php(106): Magento\Framework\App\Bootstrap->run()
+#21 {main} {"exception":"[object] (Magento\\Framework\\Exception\\FileSystemException(code: 0): Directory \"/var/www/html/magento/pub/media/catalog/product/cache\" cannot be created Warning!mkdir(): Permission denied at /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272)"} []
+[2024-05-02T13:26:21.821170+00:00] main.CRITICAL: Magento\Framework\Exception\FileSystemException: Directory "/var/www/html/magento/pub/media/catalog/product/cache" cannot be created Warning!mkdir(): Permission denied in /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#1 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#2 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#3 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(243): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#4 /var/www/html/magento/vendor/magento/framework/Filesystem/Directory/Write.php(99): Magento\Framework\Filesystem\Driver\File->createDirectory()
+#5 /var/www/html/magento/vendor/magento/framework/Image/Adapter/AbstractAdapter.php(692): Magento\Framework\Filesystem\Directory\Write->create()
+#6 /var/www/html/magento/vendor/magento/framework/Image/Adapter/Gd2.php(178): Magento\Framework\Image\Adapter\AbstractAdapter->_prepareDestination()
+#7 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\Image\Adapter\Gd2->save()
+#8 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callParent()
+#9 /var/www/html/magento/vendor/magento/module-remote-storage/Plugin/Image.php(160): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\RemoteStorage\Plugin\Image->aroundSave()
+#11 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/generated/code/Magento/Framework/Image/Adapter/Gd2/Interceptor.php(32): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callPlugins()
+#13 /var/www/html/magento/vendor/magento/framework/Image.php(75): Magento\Framework\Image\Adapter\Gd2\Interceptor->save()
+#14 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(395): Magento\Framework\Image->save()
+#15 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(344): Magento\MediaStorage\Service\ImageResize->generateResizedImage()
+#16 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(166): Magento\MediaStorage\Service\ImageResize->resize()
+#17 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(223): Magento\MediaStorage\Service\ImageResize->resizeFromImageName()
+#18 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(194): Magento\MediaStorage\App\Media->createLocalCopy()
+#19 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\MediaStorage\App\Media->launch()
+#20 /var/www/html/magento/pub/get.php(106): Magento\Framework\App\Bootstrap->run()
+#21 {main} {"exception":"[object] (Magento\\Framework\\Exception\\FileSystemException(code: 0): Directory \"/var/www/html/magento/pub/media/catalog/product/cache\" cannot be created Warning!mkdir(): Permission denied at /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272)"} []
+[2024-05-02T13:26:21.890713+00:00] main.CRITICAL: Magento\Framework\Exception\FileSystemException: Directory "/var/www/html/magento/pub/media/catalog/product/cache" cannot be created Warning!mkdir(): Permission denied in /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#1 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#2 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#3 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(243): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#4 /var/www/html/magento/vendor/magento/framework/Filesystem/Directory/Write.php(99): Magento\Framework\Filesystem\Driver\File->createDirectory()
+#5 /var/www/html/magento/vendor/magento/framework/Image/Adapter/AbstractAdapter.php(692): Magento\Framework\Filesystem\Directory\Write->create()
+#6 /var/www/html/magento/vendor/magento/framework/Image/Adapter/Gd2.php(178): Magento\Framework\Image\Adapter\AbstractAdapter->_prepareDestination()
+#7 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\Image\Adapter\Gd2->save()
+#8 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callParent()
+#9 /var/www/html/magento/vendor/magento/module-remote-storage/Plugin/Image.php(160): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\RemoteStorage\Plugin\Image->aroundSave()
+#11 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/generated/code/Magento/Framework/Image/Adapter/Gd2/Interceptor.php(32): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callPlugins()
+#13 /var/www/html/magento/vendor/magento/framework/Image.php(75): Magento\Framework\Image\Adapter\Gd2\Interceptor->save()
+#14 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(395): Magento\Framework\Image->save()
+#15 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(344): Magento\MediaStorage\Service\ImageResize->generateResizedImage()
+#16 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(166): Magento\MediaStorage\Service\ImageResize->resize()
+#17 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(223): Magento\MediaStorage\Service\ImageResize->resizeFromImageName()
+#18 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(194): Magento\MediaStorage\App\Media->createLocalCopy()
+#19 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\MediaStorage\App\Media->launch()
+#20 /var/www/html/magento/pub/get.php(106): Magento\Framework\App\Bootstrap->run()
+#21 {main} {"exception":"[object] (Magento\\Framework\\Exception\\FileSystemException(code: 0): Directory \"/var/www/html/magento/pub/media/catalog/product/cache\" cannot be created Warning!mkdir(): Permission denied at /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272)"} []
+[2024-05-02T13:26:21.895916+00:00] main.CRITICAL: Magento\Framework\Exception\FileSystemException: Directory "/var/www/html/magento/pub/media/catalog/product/cache" cannot be created Warning!mkdir(): Permission denied in /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#1 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#2 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(262): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#3 /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php(243): Magento\Framework\Filesystem\Driver\File->mkdirRecursive()
+#4 /var/www/html/magento/vendor/magento/framework/Filesystem/Directory/Write.php(99): Magento\Framework\Filesystem\Driver\File->createDirectory()
+#5 /var/www/html/magento/vendor/magento/framework/Image/Adapter/AbstractAdapter.php(692): Magento\Framework\Filesystem\Directory\Write->create()
+#6 /var/www/html/magento/vendor/magento/framework/Image/Adapter/Gd2.php(178): Magento\Framework\Image\Adapter\AbstractAdapter->_prepareDestination()
+#7 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\Image\Adapter\Gd2->save()
+#8 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callParent()
+#9 /var/www/html/magento/vendor/magento/module-remote-storage/Plugin/Image.php(160): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\RemoteStorage\Plugin\Image->aroundSave()
+#11 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\Image\Adapter\Gd2\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/generated/code/Magento/Framework/Image/Adapter/Gd2/Interceptor.php(32): Magento\Framework\Image\Adapter\Gd2\Interceptor->___callPlugins()
+#13 /var/www/html/magento/vendor/magento/framework/Image.php(75): Magento\Framework\Image\Adapter\Gd2\Interceptor->save()
+#14 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(395): Magento\Framework\Image->save()
+#15 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(344): Magento\MediaStorage\Service\ImageResize->generateResizedImage()
+#16 /var/www/html/magento/vendor/magento/module-media-storage/Service/ImageResize.php(166): Magento\MediaStorage\Service\ImageResize->resize()
+#17 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(223): Magento\MediaStorage\Service\ImageResize->resizeFromImageName()
+#18 /var/www/html/magento/vendor/magento/module-media-storage/App/Media.php(194): Magento\MediaStorage\App\Media->createLocalCopy()
+#19 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\MediaStorage\App\Media->launch()
+#20 /var/www/html/magento/pub/get.php(106): Magento\Framework\App\Bootstrap->run()
+#21 {main} {"exception":"[object] (Magento\\Framework\\Exception\\FileSystemException(code: 0): Directory \"/var/www/html/magento/pub/media/catalog/product/cache\" cannot be created Warning!mkdir(): Permission denied at /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272)"} []
