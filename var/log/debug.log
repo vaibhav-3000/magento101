@@ -15064,3 +15064,4 @@ Class Training\\Example\\Controller\\Index\\Page\\Interceptor generation error: 
 [2024-05-07T11:55:32.085259+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
 [2024-05-07T11:59:41.486657+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
 [2024-05-07T12:15:52.415254+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-05-07T12:22:55.157172+00:00] main.ERROR: Invalid return type [] []

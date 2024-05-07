@@ -1074,3 +1074,4 @@ Class Training\Example\Controller\Index\Page\Interceptor generation error: The r
 [2024-05-07T11:47:15.531914+00:00] main.CRITICAL: Class "Training\Example\Controller\Index\Magento\Framework\View\Result\PageFactory" does not exist
 Class Training\Example\Controller\Index\Page\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
 [2024-05-07T11:47:15.532449+00:00] main.ERROR: Class "Training\Example\Controller\Index\Page\Interceptor" does not exist [] []
+[2024-05-07T12:22:55.157172+00:00] main.ERROR: Invalid return type [] []
