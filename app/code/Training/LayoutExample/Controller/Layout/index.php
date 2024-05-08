@@ -17,3 +17,4 @@ class Index implements ActionInterface
         return $this->resultFactory->create();
     }
 }
+
