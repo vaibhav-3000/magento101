@@ -14,4 +14,8 @@ class Index extends Template
             $pageMainTitle->setPageTitle("Magento Developer");
         }
     }
+
+    public function getSubTitle():string{
+        return "Learn Magento 2 Development";
+    }
 }
