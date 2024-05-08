@@ -1137,3 +1137,76 @@ Line: 811
  [] []
 [2024-05-08T09:58:43.053433+00:00] main.CRITICAL: Class "Training\LayoutExample\Block\Layout\Index" does not exist [] []
 [2024-05-08T09:58:43.053929+00:00] main.ERROR: Invalid block type: Training\LayoutExample\Block\Layout\Index [] []
+[2024-05-08T10:47:35.645066+00:00] main.INFO: Theme layout update file '/var/www/html/magento/app/code/Training/LayoutExample/view/frontend/layout/layout_example_layout_index.xml' is not valid.
+expected '>'
+ Line: 8
+Opening and ending tag mismatch: referenceContainer line 7 and block
+ Line: 10
+Opening and ending tag mismatch: body line 6 and referenceContainer
+ Line: 12
+Opening and ending tag mismatch: page line 2 and body
+ Line: 13
+Extra content at the end of the document
+ Line: 14 [] []
+[2024-05-08T10:47:35.645524+00:00] main.ERROR: Theme layout update file '/var/www/html/magento/app/code/Training/LayoutExample/view/frontend/layout/layout_example_layout_index.xml' is not valid.
+expected '>'
+ Line: 8
+Opening and ending tag mismatch: referenceContainer line 7 and block
+ Line: 10
+Opening and ending tag mismatch: body line 6 and referenceContainer
+ Line: 12
+Opening and ending tag mismatch: page line 2 and body
+ Line: 13
+Extra content at the end of the document
+ Line: 14 [] []
+[2024-05-08T10:48:44.304358+00:00] main.INFO: Theme layout update file '/var/www/html/magento/app/code/Training/LayoutExample/view/frontend/layout/layout_example_layout_index.xml' is not valid.
+expected '>'
+ Line: 8
+Opening and ending tag mismatch: referenceContainer line 7 and block
+ Line: 10
+Opening and ending tag mismatch: body line 6 and referenceContainer
+ Line: 12
+Opening and ending tag mismatch: page line 2 and body
+ Line: 13
+Extra content at the end of the document
+ Line: 14 [] []
+[2024-05-08T10:48:44.304798+00:00] main.ERROR: Theme layout update file '/var/www/html/magento/app/code/Training/LayoutExample/view/frontend/layout/layout_example_layout_index.xml' is not valid.
+expected '>'
+ Line: 8
+Opening and ending tag mismatch: referenceContainer line 7 and block
+ Line: 10
+Opening and ending tag mismatch: body line 6 and referenceContainer
+ Line: 12
+Opening and ending tag mismatch: page line 2 and body
+ Line: 13
+Extra content at the end of the document
+ Line: 14 [] []
+[2024-05-08T10:49:55.916161+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-08T10:49:55.960885+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-08T10:49:56.010298+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-08T10:49:56.157392+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-08T10:49:56.200737+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-08T10:49:56.251321+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-08T10:50:01.974376+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-08T10:50:11.564310+00:00] main.INFO: Theme layout update file '/var/www/html/magento/app/code/Training/LayoutExample/view/frontend/layout/layout_example_layout_index.xml' is not valid.
+expected '>'
+ Line: 8
+Opening and ending tag mismatch: referenceContainer line 7 and block
+ Line: 10
+Opening and ending tag mismatch: body line 6 and referenceContainer
+ Line: 12
+Opening and ending tag mismatch: page line 2 and body
+ Line: 13
+Extra content at the end of the document
+ Line: 14 [] []
+[2024-05-08T10:50:11.564727+00:00] main.ERROR: Theme layout update file '/var/www/html/magento/app/code/Training/LayoutExample/view/frontend/layout/layout_example_layout_index.xml' is not valid.
+expected '>'
+ Line: 8
+Opening and ending tag mismatch: referenceContainer line 7 and block
+ Line: 10
+Opening and ending tag mismatch: body line 6 and referenceContainer
+ Line: 12
+Opening and ending tag mismatch: page line 2 and body
+ Line: 13
+Extra content at the end of the document
+ Line: 14 [] []
