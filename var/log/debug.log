@@ -16380,3 +16380,30 @@ Class Training\\Example\\Controller\\Index\\Page\\Interceptor generation error: 
 [2024-05-08T05:10:02.342834+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cat_c","cat_p"],"mode":"matchingAnyTag"}} []
 [2024-05-08T05:10:03.487497+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
 [2024-05-08T05:10:03.488979+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-05-08T09:54:22.105636+00:00] main.ERROR: Command "cache" is not defined.
+
+Did you mean one of these?
+    cache:clean
+    cache:disable
+    cache:enable
+    cache:flush
+    cache:status
+#0 /var/www/html/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/html/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2024-05-08T09:54:42.508502+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_30392809028ca4289c169b5d8acaf852b_page_layout_merged and handles default, layout_example_layout_index: Please correct the XML data and try again. Element 'block', attribute 'class': [facet 'pattern'] The value 'Training/LayoutExample/Block/Layout/Index' is not accepted by the pattern '[A-Z][_a-zA-Z\d]*(\\[A-Z][_a-zA-Z\d]*)*'.
+Line: 811
+ [] []
+[2024-05-08T09:54:42.508819+00:00] main.ERROR: Element 'block', attribute 'class': [facet 'pattern'] The value 'Training/LayoutExample/Block/Layout/Index' is not accepted by the pattern '[A-Z][_a-zA-Z\d]*(\\[A-Z][_a-zA-Z\d]*)*'.
+Line: 811
+ [] []
+[2024-05-08T09:56:07.933352+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_30392809028ca4289c169b5d8acaf852b_page_layout_merged and handles default, layout_example_layout_index: Please correct the XML data and try again. Element 'block', attribute 'class': [facet 'pattern'] The value 'Training/LayoutExample/Block/Layout/Index' is not accepted by the pattern '[A-Z][_a-zA-Z\d]*(\\[A-Z][_a-zA-Z\d]*)*'.
+Line: 811
+ [] []
+[2024-05-08T09:56:07.933668+00:00] main.ERROR: Element 'block', attribute 'class': [facet 'pattern'] The value 'Training/LayoutExample/Block/Layout/Index' is not accepted by the pattern '[A-Z][_a-zA-Z\d]*(\\[A-Z][_a-zA-Z\d]*)*'.
+Line: 811
+ [] []
+[2024-05-08T09:58:43.053433+00:00] main.CRITICAL: Class "Training\LayoutExample\Block\Layout\Index" does not exist [] []
+[2024-05-08T09:58:43.053929+00:00] main.ERROR: Invalid block type: Training\LayoutExample\Block\Layout\Index [] []
