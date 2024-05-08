@@ -7,7 +7,13 @@
         <referenceContainer name="content">
             <block class="Training\LayoutExample\Block\Layout\Index" name="layout_example" template="Training_LayoutExample::content.phtml">
                 <block class="Training\LayoutExample\Block\Layout\Note" name="layout_note" template="Training_LayoutExample::note.phtml"></block>
+                <block class="Magento\Cms\Block\Block" name="cms_block_example">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">cms_block_example</argument>
+                    </arguments>
+                </block>
             </block>
+
             
         </referenceContainer>
     </body>

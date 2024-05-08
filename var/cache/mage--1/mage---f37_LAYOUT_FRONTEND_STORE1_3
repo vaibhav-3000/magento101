@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715165501;s:6:"expire";i:1746701501;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715167183;s:6:"expire";i:1746703183;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7113,6 +7113,11 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715165501;s:6:"expire";i:1746701501;s:4:"t
    <referenceContainer name="content">
       <block class="Training\LayoutExample\Block\Layout\Index" name="layout_example" template="Training_LayoutExample::content.phtml">
          <block class="Training\LayoutExample\Block\Layout\Note" name="layout_note" template="Training_LayoutExample::note.phtml"/>
+         <block class="Magento\Cms\Block\Block" name="cms_block_example">
+            <arguments>
+               <argument name="block_id" xsi:type="string">cms_block_example</argument>
+            </arguments>
+         </block>
       </block>
    </referenceContainer>
 </body>
