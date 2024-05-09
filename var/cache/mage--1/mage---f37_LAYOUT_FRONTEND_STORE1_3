@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715246671;s:6:"expire";i:1746782671;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715250743;s:6:"expire";i:1746786743;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7114,6 +7114,14 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715246671;s:6:"expire";i:1746782671;s:4:"t
    <css src="Training_HeadCssJs::css/default.css"/>
    <script src="Training_HeadCssJs::js/default.js"/>
 </head>
+</handle><handle id="default"><body>
+   <referenceBlock name="head.additional">
+      <block name="header_footer_script" template="Training_HeaderFooterScripts::head_additional/header_footer_scripts.phtml" class="Magento\Framework\View\Element\Template"/>
+   </referenceBlock>
+   <referenceBlock name="after.body.start">
+      <block name="after_body_start_default_script" template="Training_HeaderFooterScripts::body_start/default_script.phtml" class="Magento\Framework\View\Element\Template"/>
+   </referenceBlock>
+</body>
 </handle><handle id="header_footer_scripts_index_index"><body>
    <referenceBlock name="head.additional">
       <block name="header_footer_script" template="Training_HeaderFooterScripts::head_additional/header_footer_scripts.phtml" class="Magento\Framework\View\Element\Template"/>
