@@ -1,0 +1,1 @@
+console.log('Training_HeadCSSJs::js/default.js')
