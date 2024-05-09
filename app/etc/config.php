@@ -350,6 +350,7 @@ return [
         'Temando_ShippingRemover' => 1,
         'Training_Example' => 1,
         'Training_LayoutExample' => 1,
+        'Training_LayoutMoveExample' => 1,
         'Training_WidgetExample' => 1
     ]
 ];
