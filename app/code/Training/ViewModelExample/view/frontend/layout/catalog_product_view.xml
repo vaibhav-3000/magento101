@@ -5,7 +5,11 @@
             <block class="Magento\Framework\View\Element\Template" name="deliver_message"
             template="Training_ViewModelExample::delivery_message.phtml"
             before="product.info.price"
-            />
+            >
+            <arguments>
+                <argument name="view_model" xsi:type="object">Training\ViewModelExample\ViewModel\DeliveryMessage</argument>
+            </arguments>
+            </block>
         </referenceBlock>
     
     </body>
