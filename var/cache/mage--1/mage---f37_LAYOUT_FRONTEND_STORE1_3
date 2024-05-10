@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715337782;s:6:"expire";i:1746873782;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715341642;s:6:"expire";i:1746877642;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7176,6 +7176,15 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715337782;s:6:"expire";i:1746873782;s:4:"t
       <block name="pool_pattern" class="Magento\Framework\View\Element\Template" template="Training_PoolPattern::pool.phtml">
          <arguments>
             <argument name="view_model" xsi:type="object">Training\PoolPattern\ViewModel\Example</argument>
+         </arguments>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="proxy_index_index"><body>
+   <referenceContainer name="content">
+      <block name="featured_block" class="Magento\Framework\View\Element\Template" template="Training_ProxyExample::featured.phtml">
+         <arguments>
+            <argument name="view_model" xsi:type="object">Training\ProxyExample\ViewModel\Example</argument>
          </arguments>
       </block>
    </referenceContainer>
