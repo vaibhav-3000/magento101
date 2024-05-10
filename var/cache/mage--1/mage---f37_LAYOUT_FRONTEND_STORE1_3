@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715332273;s:6:"expire";i:1746868273;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715335452;s:6:"expire";i:1746871452;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7137,6 +7137,15 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715332273;s:6:"expire";i:1746868273;s:4:"t
       <block name="injectables_examples" class="Magento\Framework\View\Element\Template" template="Training_InjectablesAndNonInjectablesExample::injectables.phtml">
          <arguments>
             <argument name="view_model" xsi:type="object">Training\InjectablesAndNonInjectablesExample\ViewModel\Example</argument>
+         </arguments>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="interfaces_index_index"><body>
+   <referenceContainer name="content">
+      <block name="interfaces" class="Magento\Framework\View\Element\Template" template="Training_Interfaces::interfaces.phtml">
+         <arguments>
+            <argument name="view_model" xsi:type="object">Training\Interfaces\ViewModel\Interfaces</argument>
          </arguments>
       </block>
    </referenceContainer>
