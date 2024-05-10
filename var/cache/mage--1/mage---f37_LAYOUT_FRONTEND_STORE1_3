@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715314771;s:6:"expire";i:1746850771;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715317126;s:6:"expire";i:1746853126;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7147,6 +7147,11 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715314771;s:6:"expire";i:1746850771;s:4:"t
 </body>
 </handle><handle id="customer_account_login"><body>
    <referenceBlock name="customer.new" remove="false"/>
+</body>
+</handle><handle id="catalog_product_view"><body>
+   <referenceBlock name="product.info.main">
+      <block class="Magento\Framework\View\Element\Template" name="deliver_message" template="Training_ViewModelExample::delivery_message.phtml" before="product.info.price"/>
+   </referenceBlock>
 </body>
 </handle><handle id="default"><body>
    <referenceBlock name="logo">
