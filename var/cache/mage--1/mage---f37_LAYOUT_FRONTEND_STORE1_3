@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715318234;s:6:"expire";i:1746854234;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715323250;s:6:"expire";i:1746859250;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7104,6 +7104,11 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715318234;s:6:"expire";i:1746854234;s:4:"t
       <referenceBlock name="vault.token.list">
          <block class="PayPal\Braintree\Block\Customer\PayPal\VaultTokenRenderer" name="braintree_paypal.token.renderer" template="PayPal_Braintree::paypal/vault_token.phtml"/>
       </referenceBlock>
+   </referenceContainer>
+</body>
+</handle><handle id="dependency_index_index"><body>
+   <referenceContainer name="content">
+      <block name="dependency_example" class="Training\DependencyExample\Block\Example" template="Training_DependencyExample::dependency_example.phtml"/>
    </referenceContainer>
 </body>
 </handle><handle id="cms_page_view_id_about-us"><head>
