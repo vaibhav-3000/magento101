@@ -1,10 +1,10 @@
 <?php
-namespace Training\DependencyExample\Model;
+namespace Training\InjectablesAndNonInjectablesExample\Model;
 
 /**
- * Factory class for @see \Training\DependencyExample\Model\NonInjectableInterface
+ * Factory class for @see \Training\InjectablesAndNonInjectablesExample\Model\Item
  */
-class NonInjectableInterfaceFactory
+class ItemFactory
 {
     /**
      * Object Manager instance
@@ -26,7 +26,7 @@ class NonInjectableInterfaceFactory
      * @param \Magento\Framework\ObjectManagerInterface $objectManager
      * @param string $instanceName
      */
-    public function __construct(\Magento\Framework\ObjectManagerInterface $objectManager, $instanceName = '\\Training\\DependencyExample\\Model\\NonInjectableInterface')
+    public function __construct(\Magento\Framework\ObjectManagerInterface $objectManager, $instanceName = '\\Training\\InjectablesAndNonInjectablesExample\\Model\\Item')
     {
         $this->_objectManager = $objectManager;
         $this->_instanceName = $instanceName;
@@ -36,7 +36,7 @@ class NonInjectableInterfaceFactory
      * Create class instance with specified parameters
      *
      * @param array $data
-     * @return \Training\DependencyExample\Model\NonInjectableInterface
+     * @return \Training\InjectablesAndNonInjectablesExample\Model\Item
      */
     public function create(array $data = [])
     {

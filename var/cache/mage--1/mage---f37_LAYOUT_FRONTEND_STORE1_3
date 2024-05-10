@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715323250;s:6:"expire";i:1746859250;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715324561;s:6:"expire";i:1746860561;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7131,6 +7131,15 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715323250;s:6:"expire";i:1746859250;s:4:"t
    <referenceBlock name="head.additional">
       <block name="header_footer_script" template="Training_HeaderFooterScripts::head_additional/header_footer_scripts.phtml" class="Magento\Framework\View\Element\Template"/>
    </referenceBlock>
+</body>
+</handle><handle id="injectables_index_index"><body>
+   <referenceContainer name="content">
+      <block name="injectables_examples" class="Magento\Framework\View\Element\Template" template="Training_InjectablesAndNonInjectablesExample::injectables.phtml">
+         <arguments>
+            <argument name="view_model" xsi:type="object">Training\InjectablesAndNonInjectablesExample\ViewModel\Example</argument>
+         </arguments>
+      </block>
+   </referenceContainer>
 </body>
 </handle><handle id="layout_example_layout_index"><head>
    <title>Layout Example</title>

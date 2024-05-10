@@ -1,10 +1,10 @@
 <?php
-namespace Training\DependencyExample\Controller\Index\Index;
+namespace Training\InjectablesAndNonInjectablesExample\Controller\Index\Index;
 
 /**
- * Interceptor class for @see \Training\DependencyExample\Controller\Index\Index
+ * Interceptor class for @see \Training\InjectablesAndNonInjectablesExample\Controller\Index\Index
  */
-class Interceptor extends \Training\DependencyExample\Controller\Index\Index implements \Magento\Framework\Interception\InterceptorInterface
+class Interceptor extends \Training\InjectablesAndNonInjectablesExample\Controller\Index\Index implements \Magento\Framework\Interception\InterceptorInterface
 {
     use \Magento\Framework\Interception\Interceptor;
 
