@@ -362,6 +362,7 @@ return [
         'Training_ReplaceConstructorArguments' => 1,
         'Training_ViewModelExample' => 1,
         'Training_VirtualTypeExample' => 1,
+        'Training_WarehouseManagement' => 1,
         'Training_WidgetExample' => 1
     ]
 ];
