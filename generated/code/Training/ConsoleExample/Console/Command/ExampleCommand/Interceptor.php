@@ -8,10 +8,10 @@ class Interceptor extends \Training\ConsoleExample\Console\Command\ExampleComman
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(?string $name = null)
+    public function __construct(\Magento\Framework\ObjectManagerInterface $objectManager, string $serviceClass)
     {
         $this->___init();
-        parent::__construct($name);
+        parent::__construct($objectManager, $serviceClass);
     }
 
     /**
