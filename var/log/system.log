@@ -2919,3 +2919,107 @@ Class Magento\Framework\Mview\ViewFactory generation error: The requested class 
 [2024-05-11T17:43:01.267817+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
 [2024-05-11T17:43:01.316700+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
 [2024-05-11T17:43:06.687776+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T17:51:30.190949+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.192020+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.192466+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.192684+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.192899+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.193116+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.193328+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.193539+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.193759+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.193973+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.194200+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.194585+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.194931+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.195258+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.195651+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.195977+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.196325+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.196634+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T17:51:30.197061+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T17:51:30.197497+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T17:51:30.197918+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T17:51:30.198329+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T17:51:30.198770+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-05-11T17:51:30.199229+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T17:51:30.200257+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T17:51:30.200774+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-05-11T18:29:13.647786+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.649435+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.649914+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.650372+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.650776+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.651196+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.651566+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.652003+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.652418+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.652828+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.653245+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.653699+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.654075+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.654414+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.654748+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.655100+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.655631+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.656004+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-05-11T18:29:13.656450+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T18:29:13.656856+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T18:29:13.657244+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T18:29:13.657640+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T18:29:13.658039+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-05-11T18:29:13.658483+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T18:29:13.658877+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-05-11T18:29:13.659289+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-05-11T19:03:10.038488+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T19:03:10.088744+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T19:03:10.139896+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T19:03:10.287530+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T19:03:10.332690+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T19:03:10.386009+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T19:03:16.039479+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2024-05-11T19:03:55.052162+00:00] main.ERROR: No arguments expected for "training:example:run" command, got "1".
+#0 /var/www/html/magento/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseArgument()
+#1 /var/www/html/magento/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\Component\Console\Input\ArgvInput->parseToken()
+#2 /var/www/html/magento/vendor/symfony/console/Input/Input.php(55): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /var/www/html/magento/vendor/symfony/console/Command/Command.php(257): Symfony\Component\Console\Input\Input->bind()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->___callParent()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Training/ConsoleExample/Console/Command/ExampleCommand/Interceptor.php(77): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/symfony/console/Application.php(1040): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->run()
+#9 /var/www/html/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#10 /var/www/html/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#11 /var/www/html/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#12 /var/www/html/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#13 {main} [] []
+[2024-05-11T19:05:30.591749+00:00] main.ERROR: No arguments expected for "training:example:run" command, got "1".
+#0 /var/www/html/magento/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseArgument()
+#1 /var/www/html/magento/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\Component\Console\Input\ArgvInput->parseToken()
+#2 /var/www/html/magento/vendor/symfony/console/Input/Input.php(55): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /var/www/html/magento/vendor/symfony/console/Command/Command.php(257): Symfony\Component\Console\Input\Input->bind()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->___callParent()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Training/ConsoleExample/Console/Command/ExampleCommand/Interceptor.php(77): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/symfony/console/Application.php(1040): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->run()
+#9 /var/www/html/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#10 /var/www/html/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#11 /var/www/html/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#12 /var/www/html/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#13 {main} [] []
+[2024-05-11T19:08:02.482004+00:00] main.ERROR: No arguments expected for "training:example:run" command, got "force".
+#0 /var/www/html/magento/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseArgument()
+#1 /var/www/html/magento/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\Component\Console\Input\ArgvInput->parseToken()
+#2 /var/www/html/magento/vendor/symfony/console/Input/Input.php(55): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /var/www/html/magento/vendor/symfony/console/Command/Command.php(257): Symfony\Component\Console\Input\Input->bind()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->___callParent()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Training/ConsoleExample/Console/Command/ExampleCommand/Interceptor.php(77): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/symfony/console/Application.php(1040): Training\ConsoleExample\Console\Command\ExampleCommand\Interceptor->run()
+#9 /var/www/html/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#10 /var/www/html/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#11 /var/www/html/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#12 /var/www/html/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#13 {main} [] []
