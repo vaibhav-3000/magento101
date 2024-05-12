@@ -366,6 +366,7 @@ return [
         'Training_LayoutRemoveExample' => 1,
         'Training_MuteObserverExample' => 1,
         'Training_ObserverExample' => 1,
+        'Training_PassDataToBlocks' => 1,
         'Training_DisablePluginExample' => 1,
         'Training_PoolPattern' => 1,
         'Training_PreferenceExtended' => 1,
