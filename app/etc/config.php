@@ -350,6 +350,7 @@ return [
         'Temando_ShippingRemover' => 1,
         'Training_ConsoleExample' => 1,
         'Training_Core' => 1,
+        'Training_CronExample' => 1,
         'Training_DependencyExample' => 1,
         'Training_DispatchEventExample' => 1,
         'Training_PluginExample' => 1,
