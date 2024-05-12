@@ -352,6 +352,7 @@ return [
         'Training_Core' => 1,
         'Training_DependencyExample' => 1,
         'Training_PluginExample' => 1,
+        'Training_DispatchEventExample' => 1,
         'Training_Example' => 1,
         'Training_HeadCssJs' => 1,
         'Training_HeaderFooterScripts' => 1,
