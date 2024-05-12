@@ -11712,3 +11712,4 @@ Stack trace:
 #19 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\MediaStorage\App\Media->launch()
 #20 /var/www/html/magento/pub/get.php(106): Magento\Framework\App\Bootstrap->run()
 #21 {main} {"exception":"[object] (Magento\\Framework\\Exception\\FileSystemException(code: 0): Directory \"/var/www/html/magento/pub/media/catalog/product/cache\" cannot be created Warning!mkdir(): Permission denied at /var/www/html/magento/vendor/magento/framework/Filesystem/Driver/File.php:272)"} []
+[2024-05-12T17:11:56.160103+00:00] main.WARNING: Failed to retrieve the release notification content. {"exception":"[object] (Exception(code: 0): Failed to connect to magento.com port 443: Connection timed out at /var/www/html/magento/vendor/magento/framework/HTTP/Client/Curl.php:427)"} []
