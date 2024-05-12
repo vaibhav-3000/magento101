@@ -368,6 +368,7 @@ return [
         'Training_LayoutRemoveExample' => 1,
         'Training_MuteObserverExample' => 1,
         'Training_ObserverExample' => 1,
+        'Training_OverrideObserver' => 1,
         'Training_PageTitleExample' => 1,
         'Training_PassDataToBlocks' => 1,
         'Training_DisablePluginExample' => 1,
