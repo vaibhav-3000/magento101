@@ -348,6 +348,7 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
+        'Training_AddRemoveBlockByObserver' => 1,
         'Training_ConsoleExample' => 1,
         'Training_Core' => 1,
         'Training_CronConfigPath' => 1,
