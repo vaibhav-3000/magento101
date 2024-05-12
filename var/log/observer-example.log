@@ -1,0 +1,8 @@
+[2024-05-12T07:36:04.882778+00:00] observer-example.INFO: Event Triggered in global scope [] []
+[2024-05-12T07:36:04.897704+00:00] observer-example.INFO: Event Triggered in frontend scope [] []
+[2024-05-12T07:36:04.935109+00:00] observer-example.INFO: Event Triggered in global scope [] []
+[2024-05-12T07:36:04.935230+00:00] observer-example.INFO: Event Triggered in frontend scope [] []
+[2024-05-12T07:36:05.888346+00:00] observer-example.INFO: Event Triggered in global scope [] []
+[2024-05-12T07:36:05.890880+00:00] observer-example.INFO: Event Triggered in frontend scope [] []
+[2024-05-12T07:36:05.900945+00:00] observer-example.INFO: Event Triggered in global scope [] []
+[2024-05-12T07:36:05.901060+00:00] observer-example.INFO: Event Triggered in frontend scope [] []
