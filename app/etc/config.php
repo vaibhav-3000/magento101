@@ -359,6 +359,7 @@ return [
         'Training_Example' => 1,
         'Training_HeadCssJs' => 1,
         'Training_HeaderFooterScripts' => 1,
+        'Training_IfConfigExample' => 1,
         'Training_InjectablesAndNonInjectablesExample' => 1,
         'Training_Interfaces' => 1,
         'Training_LayoutExample' => 1,
