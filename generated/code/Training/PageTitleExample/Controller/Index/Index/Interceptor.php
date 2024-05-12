@@ -1,10 +1,10 @@
 <?php
-namespace Training\PassDataToBlocks\Controller\Index\Index;
+namespace Training\PageTitleExample\Controller\Index\Index;
 
 /**
- * Interceptor class for @see \Training\PassDataToBlocks\Controller\Index\Index
+ * Interceptor class for @see \Training\PageTitleExample\Controller\Index\Index
  */
-class Interceptor extends \Training\PassDataToBlocks\Controller\Index\Index implements \Magento\Framework\Interception\InterceptorInterface
+class Interceptor extends \Training\PageTitleExample\Controller\Index\Index implements \Magento\Framework\Interception\InterceptorInterface
 {
     use \Magento\Framework\Interception\Interceptor;
 
